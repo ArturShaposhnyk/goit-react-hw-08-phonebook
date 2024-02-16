@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { addContactsThunk, getContactsThunk } from 'Store/ContactsThunk';
 import css from './ContactForm.module.css';
 import { Notify } from 'notiflix';
-import { Navigate } from 'react-router-dom';
 
 const ContactForm = () => {
   const dispatch = useDispatch();
